@@ -2,6 +2,7 @@
 :root { --green:#174c36; --ink:#203227; --cream:#f7f6ef; --orange:#f2a33a; --line:#dfe5db; --muted:#718078; }
 * { box-sizing: border-box; }
 .brand > span:last-child { font-size:0; }.brand > span:last-child::before { content:'Cyberagris '; font-size:18px; }.dashboard-sidebar .brand > span:last-child::before { font-size:16px; }
+.onboarding .eyebrow { font-size:0; }.onboarding .eyebrow::before { content:'Welcome to Cyberagris'; font-size:10px; } main:not(.dashboard-page) footer > span:last-child { font-size:0; } main:not(.dashboard-page) footer > span:last-child::before { content:'© 2024 Cyberagris Bayelsa'; font-size:10px; }
 main { overflow:hidden; background:var(--cream); color:var(--ink); font-family:'DM Sans',sans-serif; }
 button, input, select { font:inherit; } button { cursor:pointer; } a { color:inherit; text-decoration:none; }
 .topline { background:var(--green); color:#dcebd8; padding:9px 6.5%; display:flex; justify-content:space-between; font-size:11px; letter-spacing:.03em; }
