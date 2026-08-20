@@ -65,7 +65,7 @@ function FarmerDashboard({ onBack, onProductAdded }) {
   return (
     <main className="dashboard-page">
       <aside className="dashboard-sidebar">
-        <a className="brand" href="#dashboard"><span className="brand-mark">✳</span><span>AgriMarket <i>Bayelsa</i></span></a>
+        <a className="brand" href="#dashboard"><span className="brand-mark">✳</span><span>Cyberagris <i>Bayelsa</i></span></a>
         <div className="dashboard-profile"><span className="profile-avatar">EG</span><div><strong>Ebiwari George</strong><small>Farmer · Yenagoa LGA</small></div></div>
         <nav className="dashboard-nav"><a className="active" href="#dashboard">▦ <span>Overview</span></a><a href="#listings">□ <span>My products</span><b>4</b></a><a href="#orders">⌁ <span>Orders</span><b>3</b></a><a href="#earnings">₦ <span>Earnings & payouts</span></a><a href="#profile">♧ <span>Farm profile</span></a><a href="#settings">⚙ <span>Settings</span></a></nav>
         <div className="sidebar-help"><span>?</span><strong>Need a hand?</strong><small>Our team is here for you.</small><a href="mailto:support@agrimarket.test">Contact support →</a></div>
@@ -87,7 +87,7 @@ function BuyerDashboard({ onBack }) {
   return (
     <main className="dashboard-page buyer-dashboard">
       <aside className="dashboard-sidebar">
-        <a className="brand" href="#dashboard"><span className="brand-mark">✳</span><span>AgriMarket <i>Bayelsa</i></span></a>
+        <a className="brand" href="#dashboard"><span className="brand-mark">✳</span><span>Cyberagris <i>Bayelsa</i></span></a>
         <div className="dashboard-profile"><span className="profile-avatar buyer-avatar">AP</span><div><strong>Amarachi Peter</strong><small>Buyer · Yenagoa LGA</small></div></div>
         <nav className="dashboard-nav"><a className="active" href="#dashboard">▦ <span>Overview</span></a><a href="#orders">⌁ <span>My orders</span><b>2</b></a><a href="#saved">♡ <span>Saved products</span></a><a href="#profile">♧ <span>My profile</span></a><a href="#settings">⚙ <span>Settings</span></a></nav>
         <div className="sidebar-help"><span>?</span><strong>Need a hand?</strong><small>Our team is here for you.</small><a href="mailto:support@agrimarket.test">Contact support →</a></div>
